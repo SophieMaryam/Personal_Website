@@ -1,0 +1,67 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+
+/* Homepage*/
+#header {
+	background-color: #1a1a1a;
+	padding: 5px 10px;
+  	overflow-y: auto;
+  	top:0; 
+  	left:0; 
+  	width:100%;
+  	z-index:1;
+  	position:fixed;
+}
+
+#navbar li {
+	display:inline;
+	z-index:1;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+/*	padding-right:50px;*/
+/*	padding-left:50px;*/
+	/*text-transform: uppercase;*/
+	letter-spacing: .05em;
+	cursor: pointer;
+  	text-decoration: none;
+}
+
+a:-webkit-any-link{
+	color:white;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+a:hover {
+	/*color:white;*/
+}
+
+a:linked{
+	color:white;
+}
+
+
+.options {
+	float:right;
+	margin-right:100px;
+}
+
+#biography {
+	height:40px;
+	width:40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#personalimage {
+	height:300px;
+	width:300px;
+	border-radius:100%;
+	margin-top:100px;
+}
+
+#introduction li {
+	display:inline-block;
+	text-decoration: none;
+}
