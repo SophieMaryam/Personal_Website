@@ -5,28 +5,36 @@ html
 		link(rel="stylesheet" href="main.css" type="text/css")
 		link(href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet")
 	body
-		header#header
-			navbar#navbar
+		header.header
+			nav.nav
 				ul
-					li#name <strong>sophie</strong>vanwersch 
+					li.options 
+						a(href="/aboutme") about me 
 					li.options
-						a(href="/contact") contact 
+						a(href="/portfolio") portfolio 
 					li.options
 						a(href="/blogs") blogs 
 					li.options
-						a(href="/portfolio") portfolio 
-					li.options 
-						a(href="/aboutme") about me 
-		br
-		br
+						a(href="/contact") contact 
 		
-		div
-			ul#introduction
-				li
-					h1#biography <strong> Web Developer </strong>
-					p Aspiring back-end developer. Experience in HTML, CSS, Pug, JavaScript
-				li
-					image#personalimage(src="personalimage.jpg")
-				li
-					h3 <strong> Tech Blogger </strong>
-					p Covering stories that deal with tech, the tech industry and gender equaly
+		div#cover
+			div#covercontent
+				h3#name <strong>sophie</strong>vanwersch 
+			h3#title backenddeveloper
+
+		h1#aboutme looking for a web expert? <strong> You found her </strong>
+
+		hr
+			
+		div#bigdiv
+			div#introduction
+				h1.title < programmer > 
+				h2 Aspiring Back-end Developer with skills in HTML, CSS, Pug, JavaScript, Node.js, Express.js PostgreSQL, Sequelize & more to come.  
+			div#secondintro
+				img#image(src="personalimage.jpg")
+			div#thirdintro
+				h1.title tech blogger
+				h2 Turning passion into words. Each month, I cover stories that connect topics of technology, the tech industry, and gender equality.
+
+		div#footer
+			img#footerimage(src="lines.png")

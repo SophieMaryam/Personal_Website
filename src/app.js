@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 	res.render('index')
 });
 
+app.get('/portfolio', (req, res) => {
+	res.render('portfolio')
+});
+
 const server = app.listen(3000, () => {
 	console.log("Blog app listening on port: " + server.address().port)
 });
