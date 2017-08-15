@@ -9,13 +9,13 @@ html
 			nav.nav
 				ul
 					li
-						a(href="/aboutme") about me 
+						a(href="#aboutme") about me 
 					li
 						a(href="/portfolio") portfolio 
 					li
 						a(href="/blogs") blogs 
 					li
-						a(href="/contact") contact 
+						a(href="#contact") contact 
 		
 		div#cover
 			div#covercontent
@@ -29,12 +29,43 @@ html
 		div#bigdiv
 			div#introduction
 				h1.title < programmer > 
-				h2 Aspiring Back-end Developer with skills in HTML, CSS, Pug, JavaScript, Node.js, Express.js PostgreSQL, Sequelize & more to come.  
+				p.paragraph Aspiring Back-end Developer with skills in HTML, CSS, Pug, JavaScript, Node.js, Express.js PostgreSQL, Sequelize & more to come.  
 			div#secondintro
 				img#image(src="personalimage.jpg")
 			div#thirdintro
 				h1.title tech blogger
-				h2 Turning passion into words. Each month, I cover stories that connect topics of technology, the tech industry, and gender equality.
-
+				p.paragraph Turning passion into words. Each month, I cover stories that connect topics of technology, the tech industry, and gender equality.
 		div#footer
-			img#footerimage(src="lines.png")
+			div#footercontent
+				h1#contact contact.
+				div#box
+					p get in touch
+				div#othercontact
+					ul 
+						li
+							a(href="https://www.linkedin.com/in/sophie-van-wersch-085664120/g") <strong>L</strong>inkedIn
+						li
+							a(href="https://github.com/SophieMaryam") <strong>G</strong>itHub
+						li
+							a(href="http://google.com") <strong>R</strong>esume
+				br
+				br
+				p Piet Heinlaan 15
+				p 2341 SG Oegestgeest, Netherlands 
+				br
+				br
+
+
+				div#contactinfo
+					img(src="001-envelope.png") 
+					a#email(href="mailto:sophievanwersch@hotmail.com") 	sophievanwersch@hotmail.com
+					
+				br
+
+				div#contactinfo
+					img(src="002-phone-call.png") 
+					a#number(href="call:+31627384235") +31627384235
+				
+
+
+
