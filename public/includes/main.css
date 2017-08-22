@@ -197,6 +197,25 @@ a:linked{
 }
 /*PORTFOLIO*/
 
+.navport {
+	opacity:0.3;
+}
+
+.navport ul {
+	margin-left:600px;
+}
+
+.navport li {
+	display:inline;
+	z-index:1;
+	font-family: 'Raleway', sans-serif;
+	color: #595959;
+	cursor: pointer;
+  	text-decoration: none;
+  	word-spacing:0.2em;
+  	padding-left:20px;
+}
+
 #businesswebsiteone {
 	margin-top:150px;
 	margin-left:30px;
@@ -223,6 +242,7 @@ a:linked{
 	color:black;
 	font-family: 'Raleway', sans-serif;
 	margin-top:100px;
+	text-align:center ;
 }
 
 #info {
